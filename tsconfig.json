@@ -19,7 +19,15 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Svelte spezifisch */
+    "allowJs": true,
+    "checkJs": true,
+    "isolatedModules": true
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "src/**/*.svelte"
+  ]
 }
